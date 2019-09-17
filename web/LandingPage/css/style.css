@@ -1,0 +1,16 @@
+#header {
+    background: rgb(32, 31, 31);
+}
+
+#header .img-fluid {
+    width: 150PX;
+}
+
+.nav-item:hover {
+    color: yellowgreen;
+    transition: .5s;
+}
+
+.nav-link {
+    color: rgb(187, 180, 189);
+}
