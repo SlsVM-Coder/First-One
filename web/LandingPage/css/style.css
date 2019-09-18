@@ -14,3 +14,38 @@
 .nav-link {
     color: rgb(187, 180, 189);
 }
+
+.texto {
+    display: grid;
+    grid-template: 200px / 1fr 1fr;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+}
+
+img {
+    position: relative;
+    text-align: center;
+}
+
+.texto2 {
+    display: grid;
+    grid-template: 0px / 1fr 1fr;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+}
+
+.container-texto {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+}
